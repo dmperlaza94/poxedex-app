@@ -1,10 +1,14 @@
 import React from "react";
 import "./App.css";
+import Form from "./componentes/form";
 
-function App() {
-  return (
-    
-  );
+class App extends React.Component {
+  render() {
+    return (
+      <div>
+        <Form />
+      </div>
+    );
+  }
 }
-
 export default App;
