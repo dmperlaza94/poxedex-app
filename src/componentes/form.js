@@ -25,6 +25,7 @@ class Form extends React.Component {
     if (this.state.pokemons) {
       return (
         <div>
+          <h5> Esta es la lista de pokemones </h5>
           <Lista pokemons={this.state.pokemons} />
         </div>
       );
